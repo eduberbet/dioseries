@@ -2,7 +2,7 @@
 
  - Projeto pratico do modulo: Criando um APP simples de cadastro de series em .NET
  - Curso: MRV .Net Developer
- - Plataforma: https://digitalinovation.one
+ - Plataforma: https://digitalinnovation.one/
 
 ## Linguagens
 .Net (C#)
