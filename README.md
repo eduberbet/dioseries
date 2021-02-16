@@ -1,8 +1,8 @@
 # DIO SERIES
 
-Projeto pratico do modulo: Criando um APP simples de cadastro de series em .NET
-Curso: MRV .Net Developer
-Plataforma: https://www.digitalinovation.one
+ - Projeto pratico do modulo: Criando um APP simples de cadastro de series em .NET
+ - Curso: MRV .Net Developer
+ - Plataforma: https://www.digitalinovation.one
 
 ## Linguagens
 .Net (C#)
