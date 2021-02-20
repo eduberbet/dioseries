@@ -1,40 +1,20 @@
 using System;
 using System.Collections.Generic;
 using DIO.Series.Interfaces;
-
 namespace DIO.Series
-{
+{   //Classe responsavel por fazer o "meio de campo" entre a classe Série e o programa principal
     public class SerieRepositorio : IRepositorio<Serie>
-    {
-        private List<Serie> listaSerie = new List<Serie>();
+    {   private List<Serie> listaSerie = new List<Serie>();
         public void Atualiza(int id, Serie objeto)
-        {
-            listaSerie[id] = objeto;
-        }
-
+        {   listaSerie[id] = objeto;}
         public void Exclui(int id)
-        {
-            listaSerie[id].Excluir();
-        }
-
+        {   listaSerie[id].Excluir();}
         public void Insere(Serie objeto)
-        {
-            listaSerie.Add(objeto);
-        }
-
+        {   listaSerie.Add(objeto);}
         public List<Serie> Lista()
-        {
-            return listaSerie;
-        }
-
+        {   return listaSerie;}
         public int ProximoId()
-        {
-            return listaSerie.Count;
-        }
-
+        {   return listaSerie.Count;}
         public Serie RetornaPorId(int id)
-        {
-            return listaSerie[id];
-        }
-    }
-}
+        {   return listaSerie[id];}
+}}
